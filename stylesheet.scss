@@ -50,7 +50,7 @@ body {
         }
     }
 }
-.side {
+.side .md{
     background-color: #F9F9F9;
     a[href="http://manga.redhawkscans.com/reader/read/nisekoi/en/0/155/page/1"] {
             display: block;
@@ -152,6 +152,7 @@ body {
         color: white;
         cursor: pointer;
         border-radius: 5px;
+        margin-bottom: 0;
         &:after {
             content: "";
             position: absolute;
