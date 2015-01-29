@@ -1558,8 +1558,9 @@ div.titlebox .md h3, div.titlebox .md h2 {
 div.titlebox .md h3:after, div.titlebox .md h2:after {
   margin-bottom: 10px;
 }
-.fancy-toggle-button {
-  a {
+.fancy-toggle-button a, .RESshortcut, .RESDashboardToggle{
+    font-family: Segoe, 'Segoe UI', Optima, Candara, Calibri, Arial, sans-serif;
+    width: auto;
     transition: all 0.2s ease-in-out;
     color: white !important;
     background: #16ccff !important;
@@ -1570,7 +1571,6 @@ div.titlebox .md h3:after, div.titlebox .md h2:after {
       background: #0094d3 !important;
       border: 1px solid #0094d3 !important;
     }
-  }
 }
 .arrow {
   &.down {
