@@ -15,6 +15,7 @@
 /*            Special Contributions            */
 /*---------------------------------------------*/
 /* /u/Phnglui - 2 Chitoge Flair                */
+/* /u/Yween   - RES Clicked post colo(u)r      */
 /*---------------------------------------------*/
 /*                Color Scheme                 */
 /*---------------------------------------------*/
@@ -26,6 +27,15 @@
 
 
 body {
+  /*RES Clicked post*/
+ .RES-keyNav-activeElement, body .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    background-color: transparent !important;
+    outline: 1px dashed #0094d3;
+  }
+  .commentarea .RES-keyNav-activeElement .md {
+    background-color: transparent !important;
+  }
+  
   background-color: #F9F9F9;
   & > .content {
     &:before {
@@ -1110,8 +1120,8 @@ a[href^="#ah"] {
     border-width: 0px 1px 1px 0px;
     border-bottom-right-radius: 0px;
     overflow: hidden;
-  }
-  &:hover {
+  } 
+  &:hover, .hover {
     margin-bottom: 3px !important;
     padding: 5px;
     background-color: #F2F2F2;
